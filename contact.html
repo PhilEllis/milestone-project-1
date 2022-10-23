@@ -21,13 +21,13 @@
             <a href="index.html" class="navbar-brand"><img src="/assets/images/MothersSpinesLogo.png" alt="Mothers Spines MS Logo"></a>
             <ul id="nav" class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link"href="index.html">home</a>
+                    <a class="nav-link hover-underline-animation"href="index.html">home</a>
                 </li>
                 <li class="active nav-item">
-                    <a class="nav-link" href="about.html">about</a>
+                    <a class="nav-link hover-underline-animation" href="about.html">about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">contact</a>
+                    <a class="nav-link hover-underline-animation" href="contact.html">contact</a>
                 </li>
             </ul>
         </nav>
@@ -62,15 +62,12 @@
               </div>
             </div>
             <div class="row mb-3">
-                <div class="form-check form-check-inline mb-3">
-            <input type="radio" id="pregnant" name="mum_status" value="pregnant" required>
-            <label for="pregnant">I'm Pregnant</label>
-            <input type="radio" id="new_mum" name="mum_status" value="new_mum">
-            <label for="new_mum">New Mum</label>
-            <input type="radio" id="over_2years_postpartum" name="mum_status" value="over_2years_postpartum">
-            <label for="over_2years_postpartum">>2 years Postpartum</label>
-        </div>
-        </div>
+                <label for="message" class="col-sm-2 col-form-label">Message</label>
+                <div class="col-sm-10">
+                <textarea class="form-control" id="message" type="text" style="height: 10rem;" data-sb-validations="required"></textarea>
+                <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                </div>
+              </div>
             <div>
             <button type="submit" class="btn btn-green btn-lg">Sign Me Up</button>
             </div>
@@ -87,13 +84,13 @@
                 <nav>
                 <ul id="nav" class="navbar-nav list-group-horizontal ms-auto justify-content-center">
                     <li class="active nav-item list-group-item">
-                        <a class="nav-link"href="index.html">home</a>
+                        <a class="nav-link hover-underline-footer"href="index.html">home</a>
                     </li>
                     <li class="nav-item list-group-item">
-                        <a class="nav-link" href="about.html">about</a>
+                        <a class="nav-link hover-underline-footer" href="about.html">about</a>
                     </li>
                     <li class="nav-item list-group-item">
-                        <a class="nav-link" href="contact.html">contact</a>
+                        <a class="nav-link hover-underline-footer" href="contact.html">contact</a>
                     </li>
                 </ul>
                 </nav>
