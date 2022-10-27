@@ -1,9 +1,9 @@
 <h1 align="center">Mothers Spines - Pre Launch Membership Sign Up</h1>
 <h1 align="center"><img src="./assets/images/readmeimg/MothersSpinesResponsiveDesign.png" /></h1>
 
-<a href="https://github.com/PhilEllis/milestone-project-1.git"><img src="./assets/images/readmeimg/MothersSpinesLogo.png" width="30px" /></a> Live website
+<a href="https://philellis.github.io/milestone-project-1/"><img src="./assets/images/readmeimg/MothersSpinesLogo.png" width="30px" /></a> Live website
 
-<a href="https://github.com/LigaMoon/Boredom-guide"><img src="./assets/images/readmeimg/GitHub.png" width="30px" /></a> GitHub Repository
+<a href="https://github.com/PhilEllis/milestone-project-1"><img src="./assets/images/readmeimg/GitHub.png" width="30px" /></a> GitHub Repository
  
 ## About
 
