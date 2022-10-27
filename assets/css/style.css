@@ -22,6 +22,7 @@ header {
     margin-left: 30px;
 }
 
+/* Code suggestion provided by CI Tutor Sean for both nav and ul .nav to assist in correcting the nav position*/
 nav {
     width: 100%;
     }
@@ -30,6 +31,7 @@ ul .nav {
     flex: 1;
     justify-content: flex-end;
 }
+/* End of Tutor suggested code */
 
 .navbar {
     align-items: end;
@@ -296,11 +298,6 @@ input {
     margin-left: 10px;
 }
 
-/*
-.row {
-    --bs-gutter-x: 4rem;
-}
-*/
 #signup_cta {
     font-family: 'sunflora', sans-serif;
     color: #D17D44;
@@ -389,7 +386,7 @@ footer .nav-link {
 @media (max-width:575px) {
     .hero-container {
         height: 100vh;
-        background: url('/assets/images/mobilehome.jpg') no-repeat center center;
+        background: url('/assets/images/mobilehome575.jpg') no-repeat center center;
         background-size: cover;
         background-position: right bottom;
     }
