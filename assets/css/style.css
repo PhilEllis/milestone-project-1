@@ -1,0 +1,445 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Source+Sans+Pro:wght@300&display=swap');
+
+@font-face {
+    font-family:'Sunflora';
+    src: url(/assets/fonts/Sunflora.otf);
+}
+
+/* Header */
+header {
+    margin: 0;
+    background: none;
+}
+
+/* Navigation */
+.navbar-brand {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 60px;
+    max-width: 60px;
+    margin-left: 30px;
+}
+
+nav {
+    width: 100%;
+    }
+
+ul .nav {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.navbar {
+    align-items: end;
+    background: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    --bs-navbar-nav-link-padding-x: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    list-style-type: none;
+    letter-spacing: 1px;
+    --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    padding-right: 180px;
+}
+
+.nav-item {
+    padding-top: 25px;
+}
+
+.nav-link {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #252525;
+    padding: 5px 0px;
+    margin: 15px 20px;
+}
+
+.navbar-toggler { 
+    background: #F7F5F0; 
+    color: #F7F5F0;
+}
+
+ /* Hover Navigation Bar */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #252525;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #252525;
+    transform-origin: bottom;
+    transition: transform 0.5s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transition: opacity 300ms, transform 300ms;
+}
+
+/* Hover Navigation Footer */
+.hover-underline-footer {
+    display: inline-block;
+    position: relative;
+    color: #fafafa;
+}
+
+.hover-underline-footer:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fafafa;
+    transform-origin: bottom;
+    transition: transform 0.5s ease-out;
+}
+
+.hover-underline-footer:hover:after {
+    transform: scaleX(1);
+    transition: opacity 300ms, transform 300ms;
+}
+
+/* Hero Image & Jumbotron */
+.hero-container {
+    height: 100vh;
+    background: url('/assets/images/mothersspineshero.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.contact-container {
+    height: 100vh;
+    background: url('/assets/images/contactushero.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.about-container {
+    height: 100vh;
+    background: url('/assets/images/aboutushero.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: right bottom;
+}
+.jumbotron {
+   margin-top: 100px;
+}
+
+.ms-title {
+    font-family: 'sunflora', sans-serif;
+    font-size: 6em;
+    color: #D17D44;
+}
+.cta {
+    font-family: 'Source+Sans+Pro', sans-serif;
+    font-size: 160%;
+    color: #252525;
+}
+
+.cta-secondary {
+    font-size: 110%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-green {
+    color: white;
+    background-color: #4F7B69;
+    border-color: #48705F;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-green:hover,
+.btn-green:active,
+.btn-green:focus,
+.btn-green:active:focus {
+    background-color: #76A793;
+    border-color: #6AA08A;
+}
+
+h1 {
+    font-family: 'Sunflora', sans-serif;
+    font-size: 6em;
+}
+
+/* Cards */
+.services-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #252525;
+    letter-spacing: 1px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+.services {
+    font-family: 'Source+Sans+Pro', sans-serif;
+    font-size: 160%;
+    font-weight: 300;
+    color: #252525;
+    padding: 20px 0px 70px 0px;
+}
+
+.services-hr {
+    width: 400px;
+    line-height: 7px;
+    border-color: #4F7B69;
+    opacity: 1;
+}
+
+.ms-card-image1 {
+    background: url('/assets/images/mothershug.jpg') no-repeat center center;
+    background-size: cover;
+    height: 536px;
+}
+
+.ms-card-image2 {
+    background: url('/assets/images/motherspregnantbelly.jpg')no-repeat center center;
+    background-size: cover;
+    height: 536px;
+}
+
+.ms-card-image3 {
+    background: url('/assets/images/motherstickles.jpg')no-repeat center center;
+    background-size: cover;
+    height: 536px;
+}
+
+.ms-card-body {
+    background-color: rgba(247, 245, 240, 0.90);
+    height: 250px;
+    margin-top: 286px;
+}
+
+.card-title {
+    font-family: 'Source+Sans+Pro', sans-serif;
+    color: #252525;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Source+Sans+Pro', sans-serif;
+    color: #252525;
+    text-align: center;
+}
+
+.card-body {
+    padding-top: 20px;
+}
+.about-card {
+    background-color: rgba(247, 245, 240, 0.6);
+}
+.about-card-text {
+    font-family: 'Source+Sans+Pro', sans-serif;
+    font-size: 110%;
+    color: #252525;
+}
+
+.about-cover {
+    background: url('/assets/images/about1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 541px;
+}
+
+.about-cover-2 {
+    background: url('/assets/images/about2.jpg') no-repeat center center;
+    background-size: cover;
+    height: 541px;
+}
+
+/* Mock Up*/ 
+#ms-mockup {
+    background: url("/assets/images/sneakpeakinside.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+/* Sign Up Form */
+.ms-form {
+    max-width: 800px;
+    margin-top: 100px;
+    margin-bottom: 130px;
+    background-color: #F7F5F0;
+    position: relative;
+    padding: 50px;
+}
+
+input {
+    accent-color: #4F7B69;
+    margin-left: 10px;
+}
+
+#message {
+    margin-left: 10px;
+}
+
+/*
+.row {
+    --bs-gutter-x: 4rem;
+}
+*/
+#signup_cta {
+    font-family: 'sunflora', sans-serif;
+    color: #D17D44;
+    padding-bottom: 20px;
+}
+
+/* About Quote */
+.quote {
+    border-color: transparent;
+    margin-left: 50px;
+}
+
+.quote-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    color: #252525;
+}
+
+.fa-quote-left {
+    color: #4F7B69;
+    
+}
+
+/* Contact Us */
+.ms-contact-us {
+    max-width: 1000px;
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+.contact-us {
+    font-family: 'Source+Sans+Pro', sans-serif;
+    font-size: 130%;
+    font-weight: 300;
+    color: #252525;
+    padding: 20px;
+}
+
+/* footer */
+footer {
+    background-color: #4F7B69;
+    color: #fafafa;
+    margin: 0;
+    min-height: 100px;
+}
+
+.copyright {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fafafa;
+    padding: 40px 0px 0px 0px;
+    margin: 0px 20px;
+}
+
+.ms-social-links {
+    padding: 40px 50px;
+    text-align: center;
+    }
+
+.ms-social-links li a i {
+    color: #fafafa;
+    height: 15px;
+    width: 15px;
+    font-size: 20px;
+    line-height: 7px;
+    padding-right: 30px;
+}
+
+footer .nav-link {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fafafa;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 20px;
+  }
+
+  /*Media Query*/
+@media (max-width:575px) {
+    #nav {
+      background: #F7F5F0;
+    }
+}
+
+@media (max-width:575px) {
+    .hero-container {
+        height: 100vh;
+        background: url('/assets/images/mobilehome.jpg') no-repeat center center;
+        background-size: cover;
+        background-position: right bottom;
+    }
+
+    .about-container {
+        height: 100vh;
+        background: url('/assets/images/mobileabout575.jpg') no-repeat center center;
+        background-size: cover;
+        background-position: right bottom;
+    }
+    .contact-container {
+        height: 100vh;
+        background: url('/assets/images/mobilecontact575.jpg') no-repeat center center;
+        background-size: cover;
+        background-position: right bottom;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+    .hero-container {
+        height: 100vh;
+        background: url('/assets/images/tablethome768.jpg') no-repeat center center;
+        background-size: cover;
+        background-position: right bottom;
+    }
+    .about-container {
+        height: 100vh;
+        background: url('/assets/images/tabletabout768.jpg') no-repeat center center;
+        background-size: cover;
+        background-position: right bottom;
+    }
+    .contact-container {
+        height: 100vh;
+        background: url('/assets/images/tabletconact768.jpg') no-repeat center center;
+        background-size: cover;
+        background-position: right bottom;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .ms-title {
+      font-size: 5em;
+    }
+    .cta {
+        font-size: 110%;
+    }
+    .cta-secondary {
+        font-size: 70%;
+    }
+    .btn-green {
+        font-size: 70%;
+    }
+}
