@@ -31,7 +31,7 @@ ul .nav {
     flex: 1;
     justify-content: flex-end;
 }
-/* End of Tutor suggested code */
+/* End of Tutor code */
 
 .navbar {
     align-items: end;
@@ -118,21 +118,21 @@ ul .nav {
 /* Hero Image & Jumbotron */
 .hero-container {
     height: 100vh;
-    background: url('assets/images/mothersspineshero.jpg') no-repeat center center;
+    background: url('../images/mothersspineshero.jpg') no-repeat center center;
     background-size: cover;
     background-position: right bottom;
 }
 
 .contact-container {
     height: 100vh;
-    background: url('assets/images/contactushero.jpg') no-repeat center center;
+    background: url('../images/contactushero.jpg') no-repeat center center;
     background-size: cover;
     background-position: right bottom;
 }
 
 .about-container {
     height: 100vh;
-    background: url('assets/images/aboutushero.jpg') no-repeat center center;
+    background: url('../images/aboutushero.jpg') no-repeat center center;
     background-size: cover;
     background-position: right bottom;
 }
@@ -207,19 +207,19 @@ h1 {
 }
 
 .ms-card-image1 {
-    background: url('assets/images/mothershug.jpg') no-repeat center center;
+    background: url('../images/mothershug.jpg') no-repeat center center;
     background-size: cover;
     height: 536px;
 }
 
 .ms-card-image2 {
-    background: url('assets/images/motherspregnantbelly.jpg')no-repeat center center;
+    background: url('../images/motherspregnantbelly.jpg')no-repeat center center;
     background-size: cover;
     height: 536px;
 }
 
 .ms-card-image3 {
-    background: url('assets/images/motherstickles.jpg')no-repeat center center;
+    background: url('../images/motherstickles.jpg')no-repeat center center;
     background-size: cover;
     height: 536px;
 }
@@ -256,20 +256,20 @@ h1 {
 }
 
 .about-cover {
-    background: url('assets/images/about1.jpg') no-repeat center center;
+    background: url('../images/about1.jpg') no-repeat center center;
     background-size: cover;
     height: 541px;
 }
 
 .about-cover-2 {
-    background: url('assets/images/about2.jpg') no-repeat center center;
+    background: url('../images/about2.jpg') no-repeat center center;
     background-size: cover;
     height: 541px;
 }
 
 /* Mock Up*/ 
 #ms-mockup {
-    background: url("assets/images/sneakpeakinside.jpg");
+    background: url("../images/sneakpeakinside.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -386,20 +386,20 @@ footer .nav-link {
 @media (max-width:575px) {
     .hero-container {
         height: 100vh;
-        background: url('assets/images/mobilehome575.jpg') no-repeat center center;
+        background: url('../images/mobilehome575.jpg') no-repeat center center;
         background-size: cover;
         background-position: right bottom;
     }
 
     .about-container {
         height: 100vh;
-        background: url('assets/images/mobileabout575.jpg') no-repeat center center;
+        background: url('../images/mobileabout575.jpg') no-repeat center center;
         background-size: cover;
         background-position: right bottom;
     }
     .contact-container {
         height: 100vh;
-        background: url('assets/images/mobilecontact575.jpg') no-repeat center center;
+        background: url('../images/mobilecontact575.jpg') no-repeat center center;
         background-size: cover;
         background-position: right bottom;
     }
@@ -408,19 +408,19 @@ footer .nav-link {
 @media only screen and (min-width: 575px) and (max-width: 768px) {
     .hero-container {
         height: 100vh;
-        background: url('assets/images/tablethome768.jpg') no-repeat center center;
+        background: url('../images/tablethome768.jpg') no-repeat center center;
         background-size: cover;
         background-position: right bottom;
     }
     .about-container {
         height: 100vh;
-        background: url('assets/images/tabletabout768.jpg') no-repeat center center;
+        background: url('../images/tabletabout768.jpg') no-repeat center center;
         background-size: cover;
         background-position: right bottom;
     }
     .contact-container {
         height: 100vh;
-        background: url('assets/images/tabletconact768.jpg') no-repeat center center;
+        background: url('../images/tabletconact768.jpg') no-repeat center center;
         background-size: cover;
         background-position: right bottom;
     }
