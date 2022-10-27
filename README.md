@@ -76,10 +76,11 @@ The membership to be called Mothers Spines is dedicated to building a supportive
     - In order to fulfill the brief of staying away from the brighter gimmicky colours and to reflect motherhood I opted for warm tonal and calming colours. This is a health related website so the accent colours chosen were green. I opted to make the green accent colour the main call to action button colour so that it was instantly recognisable through the site. Hookers Green #4F7B69 stands out without being garish or bright and plays into the calm design, the hover colour Green Sheen #76A793 is a lighter variant and continues this feeling. The Warmth has been acheived by a rusty orange called Raw Sienna #D17D44. In order to remove an element of harshness from the black text i have opted to us Eerie black #252525. A larger colour palatte was selected and from it a small number of main colours were selected and used in order to keep the site looking simple, clean and calming. The business has been provided with the full range of colours in order to start to build their social media and email campaigns in a cohesive manner to the site. Both sets of palattes are provided below for you to see the process used to build the brand colour.
 
 
-        <img src="./assets/images/readmeimg/complimetarycolourchoices.png" height="40px" />
+        <img src="./assets/images/readmeimg/complimetarycolourchoices.png" height="50px" />
 
 
-        <img src="./assets/images/readmeimg/coloursinuse.png" height="40px" />
+
+        <img src="./assets/images/readmeimg/coloursinuse.png" height="50px" />
 
 - #### Typography
     - The main brand identifiable font used is a Sunflora - a unique ligature font sourced from creative market with google font Montserrat secondary font for titles and headings and Source San Pro as the main text font. Sans-serif has been chosen as a fallback font. 
